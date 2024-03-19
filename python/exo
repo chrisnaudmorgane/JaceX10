@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+
+# s = 'hello'
+# reversed_s = s[:: -1]
+# print(reversed_s)
+
+# text = "abcdefg"
+# print(text[1:6:2])
+
+def func(x):
+    if x <= 1:
+        return 1
+    else:
+        return x * func(x - 1)
+
+print(func(4))

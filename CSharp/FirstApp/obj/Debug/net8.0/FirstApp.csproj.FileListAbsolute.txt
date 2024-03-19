@@ -1,0 +1,15 @@
+/home/jacex10/JaceX10/CSharp/FirstApp/bin/Debug/net8.0/FirstApp
+/home/jacex10/JaceX10/CSharp/FirstApp/bin/Debug/net8.0/FirstApp.deps.json
+/home/jacex10/JaceX10/CSharp/FirstApp/bin/Debug/net8.0/FirstApp.runtimeconfig.json
+/home/jacex10/JaceX10/CSharp/FirstApp/bin/Debug/net8.0/FirstApp.dll
+/home/jacex10/JaceX10/CSharp/FirstApp/bin/Debug/net8.0/FirstApp.pdb
+/home/jacex10/JaceX10/CSharp/FirstApp/obj/Debug/net8.0/FirstApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/jacex10/JaceX10/CSharp/FirstApp/obj/Debug/net8.0/FirstApp.AssemblyInfoInputs.cache
+/home/jacex10/JaceX10/CSharp/FirstApp/obj/Debug/net8.0/FirstApp.AssemblyInfo.cs
+/home/jacex10/JaceX10/CSharp/FirstApp/obj/Debug/net8.0/FirstApp.csproj.CoreCompileInputs.cache
+/home/jacex10/JaceX10/CSharp/FirstApp/obj/Debug/net8.0/FirstApp.sourcelink.json
+/home/jacex10/JaceX10/CSharp/FirstApp/obj/Debug/net8.0/FirstApp.dll
+/home/jacex10/JaceX10/CSharp/FirstApp/obj/Debug/net8.0/refint/FirstApp.dll
+/home/jacex10/JaceX10/CSharp/FirstApp/obj/Debug/net8.0/FirstApp.pdb
+/home/jacex10/JaceX10/CSharp/FirstApp/obj/Debug/net8.0/FirstApp.genruntimeconfig.cache
+/home/jacex10/JaceX10/CSharp/FirstApp/obj/Debug/net8.0/ref/FirstApp.dll

@@ -1,0 +1,26 @@
+Fonction determinerVainqueurEtButs(equipe1, equipe2):
+    // Supposons que equipe1 et equipe2 sont les noms des équipes
+
+    // Générer un nombre aléatoire de buts pour chaque équipe (par exemple, entre 0 et 5)
+    buts_equipe1 = nombreAleatoire(0, 5)
+    buts_equipe2 = nombreAleatoire(0, 5)
+
+    // Afficher le nombre de buts pour chaque équipe
+    Afficher("Buts marqués par", equipe1, ":", buts_equipe1)
+    Afficher("Buts marqués par", equipe2, ":", buts_equipe2)
+
+    // Déterminer le vainqueur
+    Si buts_equipe1 > buts_equipe2 alors
+        Afficher(equipe1, "remporte le match !")
+    Sinon si buts_equipe2 > buts_equipe1 alors
+        Afficher(equipe2, "remporte le match !")
+    Sinon
+        Afficher("Match nul !")
+    Fin Si
+
+    // Calculer le nombre total de buts
+    total_buts = buts_equipe1 + buts_equipe2
+    Afficher("Nombre total de buts dans le match :", total_buts)
+
+Fin Fonction
+

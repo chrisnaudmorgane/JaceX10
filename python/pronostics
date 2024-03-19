@@ -1,0 +1,17 @@
+#!/bin/env python3
+def determiner_gagnant(buts_equipe1, buts_equipe2):
+    score_equipe1 = sum(buts_equipe1)
+    score_equipe2 = sum(buts_equipe2)
+
+    if score_equipe1 > score_equipe2:
+        return "L'équipe 1 remporte le match avec un score total de {} contre {}.".format(score_equipe1, score_equipe2)
+    elif score_equipe1 < score_equipe2:
+        return "L'équipe 2 remporte le match avec un score total de {} contre {}.".format(score_equipe2, score_equipe1)
+    else:
+        return "Match nul. Aucune équipe ne remporte le match, avec un score total de {} partout.".format(score_equipe1)
+
+buts_equipe1 = [int(x) for x in input("Entrez les buts de l'équipe 1 séparés par des espaces : ").split()]
+buts_equipe2 = [int(x) for x in input("Entrez les buts de l'équipe 2 séparés par des espaces : ").split()]
+
+resultat = determiner_gagnant(buts_equipe1, buts_equipe2)
+print(resultat)

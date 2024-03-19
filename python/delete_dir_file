@@ -1,0 +1,31 @@
+#!/bin/env python3
+import os
+import shutil
+import sys
+
+def delete_files_and_dirs(path="."):
+    for root, dirs, files in os.walk(path, topdown=False):
+        for file in files:
+            file_path = os.path.join(root, file)
+            try:
+                os.remove(file_path)
+            except Exception as e:
+                print(f"Impossible de supprimer le fichier {file_path}: {e}")
+        for dir in dirs:
+            dir_path = os.path.join(root, dir)
+            try:
+                shutil.rmtree(dir_path)
+            except Exception as e:
+                print(f"Impossible de supprimer le répertoire {dir_path}: {e}")
+    try:
+        os.rmdir(path)
+    except Exception as e:
+        print(f"Impossible de supprimer le répertoire {path}: {e}")
+
+current_dir = os.getcwd()
+confirmation = input(f"Voulez-vous vraiment supprimer tous les fichiers et répertoires à partir de {current_dir} ? (oui/non) ")
+if confirmation.lower() == "oui":
+    delete_files_and_dirs(current_dir)
+else:
+    print("Opération annulée.")
+    sys.exit(0)

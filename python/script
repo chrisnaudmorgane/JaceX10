@@ -1,0 +1,11 @@
+#!/usr/bin/env python3
+import pickle
+
+# convertir un fichier python en binaire
+# remplacer 107transfer par le fichier python que vous voulez transformer en binaire
+with open('107transfer', 'rb') as f:
+    contenu = f.read()
+donnees_binaires = pickle.dumps(contenu)
+# crée un nouveau fichier binaire.pkl qui sera le binaire
+with open('binaire.pkl', 'wb') as f:
+    f.write(donnees_binaires)
