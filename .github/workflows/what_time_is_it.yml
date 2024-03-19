@@ -1,0 +1,8 @@
+name: Date script
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on: [push, pull_request]
+jobs:
+  Run-Date-After-Each-Push:
+    runs-on: ubuntu-latest
+    steps:
+      - run: date
