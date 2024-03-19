@@ -6,4 +6,4 @@ jobs:
             - uses: actions/checkout@v4
             run:
                 echo ${{Github.branch.base.ref}}
-                du --exclude=" .git"
+                du -skh --exclude=" .git"
