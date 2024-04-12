@@ -1,9 +1,0 @@
-name: Display
-on: [push]
-jobs:
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v4
-            run:
-                echo ${{Github.branch.base.ref}}
-                du -skh --exclude=" .git"
