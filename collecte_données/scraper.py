@@ -10,5 +10,5 @@ def scrape_site(url):
 
 def analyse_opportunites():
     data = load_data_from_csv('donnees_paris.csv')
-    return resultats
+    return data
 
