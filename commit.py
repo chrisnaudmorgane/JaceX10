@@ -1,4 +1,4 @@
 import os
 
-n = input()
-os.system("git add .; git commit -m\"n\"; git push")
+message_commit = input()
+os.system(f"git add .; git commit -m \"{message_commit}\"; git push")
