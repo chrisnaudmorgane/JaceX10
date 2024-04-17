@@ -1,3 +1,4 @@
+import math
 
 def find_opprtunity_data(data, cote_equipe1_field, cote_equipe2_field, min_profit=0.01, min_date=None, min_volume=None):
     opportunities = []

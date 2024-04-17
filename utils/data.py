@@ -9,7 +9,6 @@ def save_data_to_csv(data, filename):
         writer.writeheader()
         writer.writerows(data)
 
-
 def load_data_from_csv(filename):
     file_path = Path(DATA_DIR) / filename
     data = []
