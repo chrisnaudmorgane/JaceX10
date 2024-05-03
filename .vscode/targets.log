@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
 # GNU Make 4.4.1
 # Built for x86_64-redhat-linux-gnu
 # Copyright (C) 1988-2023 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Apr 12 19:10:51 2024
+# Make data base, printed on Fri May  3 13:57:44 2024
 
 # Variables
 
@@ -49,11 +51,11 @@ XDG_DATA_DIRS = /home/jacex10/.local/share/flatpak/exports/share:/var/lib/flatpa
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = /home/jacex10/.config/Code/CachedData/863d2581ecda6849923a2118d93a088b0745d9d6
+VSCODE_CODE_CACHE_PATH = /home/jacex10/.config/Code/CachedData/e170252f762678dec6ca2cc69aba1570769a5d39
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.R7NZL2
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.D1M9M2
 # default
 .LOADED := 
 # default
@@ -91,13 +93,13 @@ MAKEFILE_LIST :=
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 4990
+VSCODE_PID = 3412
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/unix:@/tmp/.ICE-unix/2239,unix/unix:/tmp/.ICE-unix/2239
+SESSION_MANAGER = local/unix:@/tmp/.ICE-unix/2318,unix/unix:/tmp/.ICE-unix/2318
 # automatic
 *F = $(notdir $*)
 # environment
@@ -135,7 +137,7 @@ MAKEFILES :=
 # automatic
 ^F = $(notdir $^)
 # environment
-INVOCATION_ID = 67ac1c5a702243f88425a6ae322065f4
+INVOCATION_ID = abfe18577cba43ad83fcefb011f66d99
 # environment
 USERNAME = jacex10
 # environment
@@ -159,7 +161,7 @@ GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
 # makefile
 .DEFAULT_GOAL := 
 # environment
-SYSTEMD_EXEC_PID = 2305
+SYSTEMD_EXEC_PID = 2392
 # environment
 HISTCONTROL = ignoredups
 # environment
@@ -171,17 +173,17 @@ USER = jacex10
 # default
 MAKE_VERSION := 4.4.1
 # environment
-MANAGERPID = 2077
+MANAGERPID = 2181
 # environment
 DEBUGINFOD_URLS = https://debuginfod.fedoraproject.org/ 
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 4990
+GIO_LAUNCHED_DESKTOP_FILE_PID = 3412
 # environment
 _ = /usr/bin/make
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
-JOURNAL_STREAM = 8:5992
+JOURNAL_STREAM = 8:10084
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -193,7 +195,7 @@ QT_IM_MODULE = ibus
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-4826ed55-1.87-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-4826ed55-1.88-main.sock
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -217,9 +219,9 @@ GDMSESSION = gnome
 
 # Directories
 
-# . (device 39, inode 1745338): 14 files, no impossibilities.
+# . (device 39, inode 6525181): 13 files, no impossibilities.
 
-# 14 files, no impossibilities in 1 directories.
+# 13 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -269,14 +271,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 23 / storage = 242 B / avg = 10 B
-# current buf: size = 8162 B / used = 242 B / count = 23 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 22 / storage = 234 B / avg = 10 B
+# current buf: size = 8162 B / used = 234 B / count = 22 / avg = 10 B
 
-# strcache performance: lookups = 25 / hit rate = 8%
+# strcache performance: lookups = 24 / hit rate = 8%
 # hash-table stats:
-# Load=23/8192=0%, Rehash=0, Collisions=0/25=0%
-# Finished Make data base on Fri Apr 12 19:10:51 2024
+# Load=22/8192=0%, Rehash=0, Collisions=0/24=0%
+# Finished Make data base on Fri May  3 13:57:44 2024
 
  
-make: *** No rule to make target 'all'.  Stop.
-
