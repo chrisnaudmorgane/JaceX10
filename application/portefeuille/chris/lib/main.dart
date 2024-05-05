@@ -20,8 +20,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-import 'package:flutter/material.dart';
-
 class AppBarScreen extends StatelessWidget with PreferredSizeWidget {
 @override
   final Size preferredSize;
