@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="../css/style.css" rel="stylesheet">
+        <title>Login</title>
+    </head>
+    <body class="bg-no-repeat bg-cover bg-center flex items-center justify-center min-h-screen" style="background-image: url(../assets/img/desk.svg)">
+        <div class="grayscale backdrop-blur-sm bg-transparent border-custom-red w-full max-w-md rounded-lg shadow-lg">
+            <h1 class="mt-5 font-bold text-5xl text-black text-center mb-4">Sign In</h1>
+            <div class="p-8">
+                <form>
+                    <div class="mb-4 flex items-center border border-gray-300 rounded-lg">
+                        <input name="email" type="email" id="email" pattern=".+@example\.com" placeholder="email" class="bg-transparent w-full px-3 py-2 focus:outline-none">
+                        <i class='bx bxl-gmail text-black text-2xl p-2'></i>
+                    </div>
+                    <div class="mb-4 flex items-center rounded-lg border border-gray-300">
+                        <input name="password" type="password" id="password" placeholder="password" class="rounded-lg bg-transparent w-full px-3 py-2 focus:outline-none">
+                        <i class='bx bxs-lock-alt text-black text-2xl p-2'></i>
+                    </div>
+                    <div class="mb-4 flex">
+                        <input type="checkbox" id="checkbox" class="">
+                        <label class="ml-2">Remenber me</label>
+                        <label class="ml-32"><a href="#">Forgot password?</a></label>
+                    </div>
+                    <div class="text-center">
+                        <button id="submit" class="text-white">Login</button>
+                    </div>
+                </form>
+                <div class="text-center">
+                    <p>Don't have an account ? <a class="ml-32" href="sign_up.html">Register</a></p>
+                </div>
+            </div>
+        </div>
+        <script type="module" src="../js/send.js"></script>
+    </body>
+</html>

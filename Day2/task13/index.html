@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Toggle Paragraph Visibility</title>
+    <style>
+        #myParagraph {
+            display: none;
+            flex-direction: column;
+        }
+        body {
+            background-color: #001f3f;
+            color: white;
+        }
+    </style>
+    <script>
+        function toggleParagraphVisibility() {
+            var myParagraph = document.getElementById("myParagraph");
+            if (myParagraph.style.display === "none") {
+                myParagraph.style.display = "block";
+            } else {
+                myParagraph.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body class="container">
+    <button onclick="toggleParagraphVisibility()">Toggle Paragraph</button>
+    <p id="myParagraph">This is the paragraph text.</p>
+</body>
+</html>

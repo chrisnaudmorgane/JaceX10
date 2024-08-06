@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact - ARNEAUGOS Hôtel</title>
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&family=Great+Vibes&display=swap" rel="stylesheet">
+        <style>
+            .hotel-name {
+                font-family: 'Great Vibes', cursive;
+                font-size: 1.5rem;
+                color: #ff7e00;
+            }
+
+            .fade-in {
+                animation: fadeIn 3s ease-in-out;
+            }
+
+            @keyframes fadeIn {
+                0% { opacity: 0; transform: translateY(-20px); }
+                100% { opacity: 1; transform: translateY(0); }
+            }
+
+            .hover-scale:hover {
+                transform: scale(1.1);
+            }
+
+            .contact-info p, .contact-info h3 {
+                font-family: 'Playfair Display', serif;
+            }
+
+            .fixed-navbar {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                z-index: 1000;
+            }
+
+            /* Add padding-top to the body to avoid content overlap */
+            body {
+                padding-top: 80px; /* Adjust this value as needed */
+            }
+        </style>
+    </head>
+    <body class="bg-gray-100 text-gray-800 font-roboto">
+        <header class="bg-gray-800 text-white p-6 fixed-navbar">
+            <div class="container mx-auto flex justify-between items-center">
+                <div class="hotel-name">ARNOGOS Hôtel</div>
+                <nav class="space-x-4">
+                    <a href="accueil.html" class="hover:text-gray-400">Accueil</a>
+                    <a href="chambres.html" class="hover:text-gray-400">Chambres</a>
+                    <a href="services.html" class="hover:text-gray-400">Services</a>
+                    <a href="reservation.html" class="hover:text-gray-400">Réservation</a>
+                    <a href="restaurants.html" class="hover:text-gray-400">Restaurant & Bar</a>
+                    <a href="evenements.html" class="hover:text-gray-400">Évènements</a>
+                    <a href="contact.html" class="hover:text-gray-400">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <section class="bg-cover bg-center h-96" style="background-image: url('path/to/hero-image.jpg');">
+            <div class="bg-black bg-opacity-50 h-full flex justify-center items-center">
+                <h1 class="text-4xl md:text-6xl font-bold text-white">Contactez-nous</h1>
+            </div>
+        </section>
+
+        <section class="container mx-auto py-16">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-orange-600">Nous contacter</h2>
+            </div>
+            <div class="flex flex-wrap justify-center">
+                <div class="bg-white p-8 rounded-lg shadow-lg max-w-lg mx-4 contact-info">
+                    <h3 class="text-2xl font-bold mb-4">Informations de Contact</h3>
+
+                    <div class="flex items-center mb-2">
+                        <img src="address.png" alt="Adresse" class="w-6 h-6 mr-2">
+                        <p class="mb-2"><strong>Adresse :</strong> 123 Rue de l'Hôtel, Cotonou, Bénin</p>
+                    </div>
+
+                    <div class="flex items-center mb-2">
+                        <img src="email.jpeg" alt="Email" class="w-6 h-6 mr-2">
+                        <p class="mb-2"><strong>Email :</strong> arnogoshotel@gmail.com</p>
+                    </div>
+
+                    <div class="flex items-center mb-2">
+                        <img src="phone.png" alt="Téléphone" class="w-6 h-6 mr-2">
+                        <p class="mb-2"><strong>Téléphone :</strong> +229 21 30 00 00</p>
+                    </div>
+
+                    <div class="flex items-center mb-2">
+                        <img src="form_contact.png" alt="form_contact" class="w-6 h-6 mr-2">
+                        <p class="mb-4"><strong>Formulaire du contact</strong></p>
+                    </div>
+                    <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1858.006011749659!2d1.706601419647377!3d6.932665159543803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1024519632aff3c7%3A0x52c14ebf3336eb99!2sHotel%20ARNOGOS!5e0!3m2!1sfr!2sbj!4v1716515344868!5m2!1sfr!2sbj" width="458" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <form action="https://api.web3forms.com/submit" method="POST" id="contact-form" class="bg-white p-8 rounded-lg shadow-lg max-w-lg mx-4 w-full lg:w-1/2">
+                    <input type="hidden" name="access_key" value="4bf79998-01cb-4a5a-8ccc-9aded2bd8474">
+                    <div class="mb-4">
+                        <label class="block text-lg font-semibold mb-2 text-gray-700" for="name">Nom</label>
+                        <input class="w-full p-3 border border-orange-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-600 focus:border-transparent" type="text" id="name" name="name" required>
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-lg font-semibold mb-2 text-gray-700" for="email">Email</label>
+                        <input class="w-full p-3 border border-orange-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-600 focus:border-transparent" type="email" id="email" name="email" required>
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-lg font-semibold mb-2 text-gray-700" for="phone">Téléphone</label>
+                        <input class="w-full p-3 border border-orange-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-600 focus:border-transparent" type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-lg font-semibold mb-2 text-gray-700" for="message">Message</label>
+                        <textarea class="w-full p-3 border border-orange-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-600 focus:border-transparent" id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="w-full p-3 bg-orange-600 font-semibold rounded-lg hover:bg-orange-700 transition duration-300">Envoyer</button>
+                </form>
+            </div>
+        </section>
+
+        <footer class="bg-gray-800 text-white py-6 text-center">
+            <div class="container mx-auto">
+                <div class="mb-4">
+                    <a href="accueil.html" class="hover:text-gray-400">Accueil</a> |
+                    <a href="chambres.html" class="hover:text-gray-400">Chambres</a> |
+                    <a href="services.html" class="hover:text-gray-400">Services</a> |
+                    <a href="reservation.html" class="hover:text-gray-400">Réservation</a> |
+                    <a href="restaurants.html" class="hover:text-gray-400">Restaurant & Bar</a> |
+                    <a href="evenements.html" class="hover:text-gray-400">Évènements</a> |
+                    <a href="contact.html" class="hover:text-gray-400">Contact</a>
+                </div>
+                <div class="text-sm">
+                    &copy; 2024 ARNOGOS Hôtel. Tous droits réservés.
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

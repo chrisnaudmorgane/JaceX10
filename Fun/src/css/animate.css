@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes hue-rotate {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.hover\:animate-hue-rotate:hover {
+    animation: hue-rotate 1s linear infinite;
+}
+
+.peer:focus ~ label, .peer:valid ~ label {
+    top: 0;
+    font-size: 0.875rem;
+}

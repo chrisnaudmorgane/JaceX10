@@ -1,0 +1,11 @@
+.color {
+    background-color: #FF0049;
+}
+
+.border-custom-red {
+    border: 2px solid rgba(255, 255, 255, .2);
+}
+
+.holder input::placeholder {
+    color: white;
+}

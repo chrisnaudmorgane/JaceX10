@@ -1,5 +1,0 @@
-/home/jacex10/JaceX10/CSharp/FirstApp/bin/Release/net8.0/publish/FirstApp
-/home/jacex10/JaceX10/CSharp/FirstApp/bin/Release/net8.0/publish/FirstApp.dll
-/home/jacex10/JaceX10/CSharp/FirstApp/bin/Release/net8.0/publish/FirstApp.deps.json
-/home/jacex10/JaceX10/CSharp/FirstApp/bin/Release/net8.0/publish/FirstApp.runtimeconfig.json
-/home/jacex10/JaceX10/CSharp/FirstApp/bin/Release/net8.0/publish/FirstApp.pdb
